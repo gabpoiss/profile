@@ -1,0 +1,169 @@
+/* Here goes your CSS */
+
+body{
+  background-image: url("../images/P1130411_copy.jpg");
+  /*background: #EBEBEB;*/
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: fixed;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color:  #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+/*.responsive-image{
+    width: 100%;
+    background-size: 100% 100%;
+}
+/* Desktop
+/*@media screen and (min-width: 200px) and (max-width: 1024px){
+    .responsive-image{
+        background-image: url('../images/P1130411_copy.jpg');
+    }
+}*/
+
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  color: #1C50FE;
+  font-size: 22px;
+}
+
+h2{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+p{
+  text-align: justify;
+}
+
+a{
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #1C50FE;
+  text-decoration: none;
+}
+
+/* First simple components */
+
+.container{
+  width: 600px;
+  margin: 30px 0px;
+}
+.card{
+  background: white;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.img-circle{
+  border-radius: 50%;
+}
+.text-center{
+  text-align: center;
+}
+.list-inline {
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+.list-inline li i{
+  font-size: 25px;
+}
+.btn-red{
+  background-color: #1C50FE;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+.btn-red:hover{
+  background-color: #141CAD;
+  color: white;
+}
+
+/* Specific CSS rules */
+
+#img-profile{
+  width: 100px;
+  height: 100px;
+  border: 3px solid #cccccc;
+}
+#img-movies{
+  width: 100px;
+  height:100px;
+  border-radius: 3px;
+}
+#movies{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+#movies img{
+  width: 80px;
+}
+#movies td{
+  padding: 10px;
+}
+
+
+#content{
+  margin-left: 120px;
+}
+
+#sidebar {
+  background-color:#59663A;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 100px;
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color:#788188;
+}
+
+#sidebar a:hover {
+  color: #1C50FE;
+}
+
+/* Responsive layout behavior */
+
+@media (max-width: 768px) {
+  #content{
+    margin-left: 0px;
+  }
+  #sidebar {
+    display: none;
+  }
+}
+
