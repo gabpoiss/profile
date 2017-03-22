@@ -4,7 +4,7 @@ body{
   background-image: url("images/P1130411_copy.jpg");
   /*background: #EBEBEB;*/
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  /*background-size: 100% 100%;*/
   background-position: fixed;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -49,7 +49,7 @@ a:hover{
 /* First simple components */
 
 .container{
-  width: 600px;
+  width: 550px;
   margin: 30px 0px;
 }
 .card{
