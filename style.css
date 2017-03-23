@@ -1,4 +1,6 @@
 /* Here goes your CSS */
+@import url('components/sidebar.css');
+@import url('components/card.css');
 
 body{
   background-image: url("https://unsplash.it/1720/700/?random");
@@ -6,6 +8,7 @@ body{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: fixed;
+  background-size: cover;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color:  #7d7d7d;
@@ -52,13 +55,7 @@ a:hover{
   width: 550px;
   margin: 30px 0px;
 }
-.card{
-  background: white;
-  padding: 20px;
-  margin-bottom: 10px;
-  border-radius: 4px;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-}
+
 .img-circle{
   border-radius: 50%;
 }
@@ -116,35 +113,7 @@ a:hover{
   margin-left: 120px;
 }
 
-#sidebar {
-  background-color:#59663A;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  bottom: 0px;
-  width: 100px;
-  text-align: center;
-}
 
-#sidebar ul {
-  list-style: none;
-  padding-left: 0px;
-}
-
-#sidebar li {
-  margin-top:50px;
-  margin-bottom: 50px;
-}
-
-#sidebar a {
-  text-decoration: none;
-  font-size: 25px;
-  color:#788188;
-}
-
-#sidebar a:hover {
-  color: #1C50FE;
-}
 
 /* Responsive layout behavior */
 
